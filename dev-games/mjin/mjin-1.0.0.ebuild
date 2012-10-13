@@ -22,7 +22,7 @@ DEPEND="${RDEPEND}
 	net-misc/curl
 	=dev-games/ois-1.2.0
 	>=dev-games/ogre-1.8.0[freeimage]
-	>=dev-games/cegui-0.7.6[ogre, tinyxml]"
+	>=dev-games/cegui-0.7.6[ogre,tinyxml]"
 
 S="${WORKDIR}/ogs-mahjong-${PV}-src/mjin"
 
