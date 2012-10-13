@@ -19,9 +19,10 @@ IUSE=""
 RDEPEND="media-libs/openal"
 DEPEND="${RDEPEND}
 	media-libs/alure[vorbis]
+	net-misc/curl
 	=dev-games/ois-1.2.0
 	>=dev-games/ogre-1.8.0[freeimage]
-	>=dev-games/cegui-0.7.6"
+	>=dev-games/cegui-0.7.6[ogre]"
 
 S="${WORKDIR}/ogs-mahjong-${PV}-src/mjin"
 
